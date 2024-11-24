@@ -83,5 +83,3 @@ The project is developed using **React** (client-side), **Node.js** (server-side
 | Chitransh Kulshrestha MT2023047      | Edit Profile, Updating, Deleting, and Adding new courses with test cases    |
 | Gramya Gupta MT2023047               | Functionality of Login and Signup with test cases|
 
-## Contact
-For any queries, contact [Your Email].
