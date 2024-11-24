@@ -25,23 +25,57 @@ The project is developed using **React** (client-side), **Node.js** (server-side
 - Browser dev tools for form/script manipulation.
 
 ## How to Run
-1. Clone the repository: [Repository Link]
-2. Navigate to the project folder and install dependencies using:
+
+### Backend Setup
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+2. Install backend dependencies:
    ```bash
    npm install
    ```
-3. Set up the MySQL database using the provided SQL scripts. Update the database connection details in the backend configuration.
-4. Start the server:
+3. Set up the MySQL database:
+   - Run the SQL scripts provided in `backend/sql/` to create the necessary database schema and tables.
+   - Update the `backend/config/db.js` file with your MySQL credentials:
+     ```javascript
+     const dbConfig = {
+         host: 'localhost',
+         user: 'your-username',
+         password: 'your-password',
+         database: 'erp_portal_db'
+     };
+     ```
+4. Start the backend server:
    ```bash
    npm start
    ```
-5. Use `npm test` to execute the test cases.
+
+### Frontend Setup
+1. Open a new terminal and navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+2. Install frontend dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the React development server:
+   ```bash
+   npm start
+   ```
+
+### Running Tests
+- To run mutation tests using Stryker, navigate to the `frontend` or `backend` folder (where configured) and run:
+   ```bash
+   npx stryker run
+   ```
+- To run other tests, use the `npm test` command in the appropriate folder.
 
 ## Results
 - **Mutation Testing Score**: 85% mutation coverage.
-- **Screenshots**:  
+- **Screenshots**:
   ![Bypass Test Screenshot](screenshots/s2.png)
-
 
 ## Team Contributions
 | Team Member                          | Contribution                                           |
@@ -49,4 +83,5 @@ The project is developed using **React** (client-side), **Node.js** (server-side
 | Chitransh Kulshrestha MT2023047      | Edit Profile, Updating, Deleting, and Adding new courses with test cases    |
 | Gramya Gupta MT2023047               | Functionality of Login and Signup with test cases|
 
-
+## Contact
+For any queries, contact [Your Email].
