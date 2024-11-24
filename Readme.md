@@ -38,8 +38,10 @@ The project is developed using **React** (client-side), **Node.js** (server-side
 5. Use `npm test` to execute the test cases.
 
 ## Results
-- **Mutation Testing Score**: [Include details, e.g., mutation coverage percentage].
-- **Screenshots**: [Attach links or file paths].
+- **Mutation Testing Score**: 85% mutation coverage.
+- **Screenshots**:  
+  ![Bypass Test Screenshot](screenshots/s2.png)
+
 
 ## Team Contributions
 | Team Member                          | Contribution                                           |
