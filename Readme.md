@@ -32,10 +32,10 @@ The purpose of this project is to test the client-side code by designing test ca
 - Screenshots of bypass test results: [Attach links or file paths].
 
 ## Team Contributions
-| Team Member                          | Contribution                                   |
-|--------------------------------------|------------------------------------------------|
-| Chitransh Kulshrestha MT2023047      | Developed core functionalities, testing scripts|
-| Gramya Gupta MT2023047               | Designed test cases, performed Stryker analysis|
+| Team Member                          | Contribution                                           |
+|--------------------------------------|--------------------------------------------------------|
+| Chitransh Kulshrestha MT2023047      | Functionality of Login and Signup with test cases      |
+| Gramya Gupta MT2023047               | Edit Profile, Updating, Deleting and Adding new courses|
 
 ## Contact
 For any queries, contact [Your Email].
